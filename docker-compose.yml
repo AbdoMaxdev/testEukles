@@ -15,7 +15,7 @@ services:
     image: docker.io/bitnami/laravel:8
     container_name: TEST-Eukles-app
     ports:
-      - '8071:8000'
+      - '8070:8000'
     environment:
       - DB_HOST=mariadb
       - DB_PORT=3306
